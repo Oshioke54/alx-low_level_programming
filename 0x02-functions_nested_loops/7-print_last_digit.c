@@ -17,5 +17,3 @@ int print_last_digit(int n)
 
 	return (last_digit);
 }
-git add .
-git commit -m "print last digit"

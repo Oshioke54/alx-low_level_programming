@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - main function
- *
- * Return: end program
- */
+* main - main function
+*
+* Return: end program
+*/
 int main(void)
 {
 	int n = 1;

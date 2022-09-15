@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * print_number - Print integer
  * @n: number
  */
-
 void print_number(int n)
 {
 	unsigned int n2, number, base10 = 1;

@@ -1,46 +1,29 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 /**
-
- * main - program that prints its name, followed by a new line
-
- * @argc: argument that counts argument input
-
- * @argv: argument that stores the strings in an array of char* (strings)
-
- * Return: 0
-
+ * main - Entry Point
+ *
+ * @argc: arg counter
+ * @argv: arguments array
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(int argc, char *argv[])
-
 {
+int a, b;
+(void)argc;
+(void)argv;
 
-int num_1, num_2, mul;
-
-
-
-if (argc != 3)
-
+if (argc < 3)
+{
 printf("Error\n");
-
-else
-
-{
-
-
-num_1 = atoi(argv[1]);
-
-num_2 = atoi(argv[2]);
-
-mul = num_1 * num_2;
-
-printf("%d\n", mul);
-
+return (1);
 }
 
-return (0);
+a = atoi(argv[1]);
+b = atoi(argv[2]);
 
+printf("%d\n", (a * b));
+
+return (0);
 }

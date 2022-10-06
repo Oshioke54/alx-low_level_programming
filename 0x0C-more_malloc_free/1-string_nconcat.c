@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *string_nconcat - check if malloc library is assigning memories
- *@s1: variable
- *@s2: parameter 2
- *@n : n charachter
- *Return: integer
- */
+  *string_nconcat - check if malloc library is assigning memories
+  *@s1: variable
+  *@s2: parameter 2
+  *@n : n charachter
+  *Return: integer
+  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {

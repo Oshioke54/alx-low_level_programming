@@ -16,7 +16,6 @@ va_start(valist, n);
 for (i = 0; i < n; i++)
 {
 integer = va_arg(valist, int);
-		
 printf("%d", integer);
 if (separator != NULL && i < n - 1)
 {
